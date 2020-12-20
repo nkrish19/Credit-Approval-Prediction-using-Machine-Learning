@@ -23,5 +23,6 @@ Plots:
 3) Then there is a correlation matrix indicating the correlation between the features of the dataset.
 
 Weights:
+
 This folder has three sub-folders: Nosampling, Oversampling, and undersampling. 
 Which further have weights of each classification algorithm used.
