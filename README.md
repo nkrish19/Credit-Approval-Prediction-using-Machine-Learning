@@ -25,5 +25,11 @@ Plots:
 
 Weights:
 
-This folder has three sub-folders: Nosampling, Oversampling, and undersampling. 
+Command to run weights:
+
+from sklearn.externals import joblib
+with open('FILENAME', 'rb') as f:
+    model = joblib.load(f)
+    
+This folder has three sub-folders: no_sampling, over_sampling, and under_sampling. 
 Which further have weights of each classification algorithm used.
