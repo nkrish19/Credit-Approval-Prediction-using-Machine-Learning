@@ -5,7 +5,7 @@ We use past financial summary of the applicant and data submitted to predict the
 We have written the program for all the models along with the graphs in MLProject.ipynb
 
 Dataset: 
-Thsi contains all the datasets that were used for our project: 
+This contains all the datasets that were used for our project: 
 1) application_record.csv 
 2) credit_record.csv
 
@@ -21,3 +21,7 @@ Plots:
 1) This folder contains ROC and correlation matrix for our best model Random Forest with random oversampling.
 2) There are three tables for Nosampling, Oversampling, and undersampling. Each table has 4 columns the first column contains a different model under one pre-possessing technique( Nosampling, Oversampling, and undersampling), the Second column has precision for class 1, the third column has precision for class 0, and the final columns has the average/ mean precision.
 3) Then there is a correlation matrix indicating the correlation between the features of the dataset.
+
+Weights:
+This folder has three sub-folders: Nosampling, Oversampling, and undersampling. 
+Which further have weights of each classification algorithm used.
