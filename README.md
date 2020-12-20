@@ -1,8 +1,13 @@
 # Credit-Approval-Prediction-using-Machine-Learning
-Using various Machine Learning techniques to classify applicants into two categories: Those who are eligible for credit, and those who are not.
+Problem statement, we decide whether or not to give the applicant loan/credit by classifying them into two classes; one that should be given the loan/credit and the other as a defaulter (who are not given a loan/credit). Build a machine learning model to predict and classify the applicant as one of the two categories.
+We use past financial summary of the applicant and data submitted to predict the probability of future defaults and whether they are eligible for the same or not. We aim to minimize the number of loans given to high-risk applicants so that the bank can provide loans with minimal risk. 
+
 We have written the program for all the models along with the graphs in MLProject.ipynb
 
-Dataset folder contains all the datasets that were used for our project: 1) application_record.csv, 2) credit_record.csv. 
+Dataset: 
+Thsi contains all the datasets that were used for our project: 
+1) application_record.csv 
+2) credit_record.csv
 
 To use the file, first, run all the import statements and then the data preprocessing
 For our pre-processing, we are using standard scalar along with handling categorical data. 
